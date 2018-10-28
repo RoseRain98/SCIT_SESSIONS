@@ -14,6 +14,6 @@ To generate the probailites of random normal distribution I used numpy.random.no
 
 Question-3:
 
-They asked to geneate the graphs for selecting the 100 random samples from Q-1 ,Q-2 and mean them and plot the graph for 100 times:
+They asked to generate the graphs for selecting the 100 random samples from Q-1 ,Q-2 and mean them and plot the graph for 100 times:
 
 To do this using numpy.random.poison(lam,1000) and numpy.random.normal(mu,sigma,1000) I generated the samples,I created a empty list,then using random function I took 100 samples from both poison and naormal then mean them and added to the empty list.Now using that list I ploted those in a histogram.This was repeated for 100 times.
