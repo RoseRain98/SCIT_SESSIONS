@@ -2,7 +2,7 @@
 
 Question-1:
 
-They aked to generate the probabilites of random poison distribution,and plot the histogram for these points for 3 times:
+They asked to generate the probabilites of random poison distribution,and plot the histogram for these points for 3 times:
 
 To generate the probailites of random poison distribution I used numpy.random.poison(lam,1000) is will return an array of the probabilites of the 1000 samples.Then based on array,using matplotlib.pyplot I plot those points in a graph.
 
